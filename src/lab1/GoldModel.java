@@ -55,9 +55,17 @@ public class GoldModel extends GameModel {
 	 */
 
 	/** Graphical representation of a coin. */
+        //
+//<<<<<<< HEAD//
 	private static final GameTile COIN_TILE = new RoundTile(new Color(255, 215,
 			0),
 			new Color(0, 255, 255), 2.0);
+        ///
+//=======
+//	private static final GameTile COIN_TILE = new RoundTile(new Color(0, 0,
+//		255),
+//			new Color(0, 255, 0), 2.0);
+//>>>>>>> 168356319308c52296b385eb14bc59352538190b
 
 	
 			
@@ -109,7 +117,7 @@ public class GoldModel extends GameModel {
 		for (int i = 0; i < COIN_START_AMOUNT; i++) {
 			addCoin();
 		}
-	}
+	} 
 
 	/**
 	 * Insert another coin into the gameboard.
